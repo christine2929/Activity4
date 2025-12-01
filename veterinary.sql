@@ -47,3 +47,4 @@ CREATE TABLE invoices (
  FOREIGN KEY (appointid) REFERENCES
 appointments(appointid)
 ); 
+
