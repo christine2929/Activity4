@@ -46,5 +46,7 @@ CREATE TABLE invoices (
  paymentdate TIME,
  FOREIGN KEY (appointid) REFERENCES
 appointments(appointid)
-); 
+); git branch
+
+
 
