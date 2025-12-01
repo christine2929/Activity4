@@ -27,14 +27,14 @@ CREATE TABLE IF NOT EXISTS owners (
 -- Feature 3: Insert sample data
 INSERT INTO pets (pet_name, species, breed, age, owner_name, visit_date) 
 VALUES 
-    ('Max', 'Dog', 'Golden Retriever', 3, 'John Smith', '2024-01-15'),
-    ('Whiskers', 'Cat', 'Siamese', 5, 'Maria Garcia', '2024-01-20'),
-    ('Buddy', 'Dog', 'Labrador', 2, 'Robert Johnson', '2024-01-25');
+    ('Max', 'Dog', 'Golden Retriever', 3, 'Christine De Chavez', '2025-11-29'),
+    ('Whiskers', 'Cat', 'Siamese', 5, 'Angelica Aguba', '2025-10-20'),
+    ('Buddy', 'Dog', 'Labrador', 2, 'Irish Fampulme', '2025-09-25');
 
 INSERT INTO owners (first_name, last_name, contact_number, email)
 VALUES
-    ('John', 'Smith', '09171234567', 'john.smith@email.com'),
-    ('Maria', 'Garcia', '09278889999', 'maria.garcia@email.com');
+    ('Christine', 'De Chavez', '09928954509', 'dechavezchristine0@gmail.com'),
+    ('Angelica', 'Aguba', '09944994958', 'agubaangelica07@gmail.com');
 
 -- Feature 4: SELECT queries
 -- Query 1: Show all pets
